@@ -1,0 +1,27 @@
+/* ::-webkit-scrollbar { */
+/* width: 10; */
+/* } */
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    background: #2b2d42;
+    height: 100%;
+}
+canvas {
+    animation-name: fade;
+    animation-duration: 0.5s;
+    margin: 0;
+    background: #2b2d42;
+    transition: 0.1s ease;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
